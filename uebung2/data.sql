@@ -46,7 +46,8 @@ VALUES
 ('Höhle', 'Axel', 'Mühlgasse 94', '90766', 'Fuerth', '1969-08-04', 3, 'vz', 6),
 ('Diener', 'Bernhard', 'Mühlgasse 69', '90763', 'Fuerth', '1961-05-28', 5, 'vz', 3);
 
- 
+
+
 
  
  
