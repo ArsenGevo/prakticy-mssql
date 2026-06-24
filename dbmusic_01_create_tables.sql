@@ -20,3 +20,18 @@ FOREIGN KEY (interpretID) REFERENCES interpret(i_id),
 FOREIGN KEY (genreID) REFERENCES genre(g_id)
 );
 
+--teil2 table ort;
+CREATE TABLE ort (
+o_id INT IDENTITY (1,1) PRIMARY KEY,
+o_name VARCHAR(50)
+);
+
+--teil2 table veranst;
+CREATE TABLE inVer (
+z_i_nr INT, 
+z_v_nr INT, 
+datum_von DATE, 
+datum_bis DATE,
+FOREIGN KEY (z_i_nr) REFERENCES interpret(i_id),
+FOREIGN KEY (z_v_nr) REFERENCES ort(o_id)
+);
