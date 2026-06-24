@@ -1,3 +1,6 @@
+USE MusicDB;
+GO
+
 INSERT INTO genre VALUES ('Rock'), ('Pop'),  ('Jazz'),  ('Elektronische Musik'),  ('Reggae');
 INSERT INTO interpret VALUES ('Die Rolling Stones'), ('Adele'), ('Miles Davis'), ('Eminem'), ('Ludwig van Beethoven'), ('Daft Punk'),
 ('Bob Marley Junior'), ('Coldplay'), ('Nina Simone'), ('Linkin Park');
